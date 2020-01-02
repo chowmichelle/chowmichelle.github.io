@@ -1,0 +1,84 @@
+
+function classic(){
+	var background = document.querySelector('body'); 
+ 	background.style.backgroundColor = 'black'; 
+  	background.style.color = 'white';
+
+  	var navigation = document.querySelectorAll('nav > a'); // access <a> elements of primary navigation
+  
+  	navigation[0].className = 'classic';
+ 	navigation[1].className = 'classic'; 
+  	navigation[2].className = 'classic'; 
+
+
+	var header = document.querySelector('a > h1');
+	header.className = 'classic';
+
+  	var footer = document.querySelector('footer > p');
+  	footer.className = 'classic';
+
+	var text1 = document.getElementsByTagName("LI");
+
+	for (var i = 0; i < text1.length; i++) {
+    text1[i].style.color = "white";
+    text1[i].style.fontFamily = "times new roman";
+  }
+
+  	var text2 = document.getElementsByTagName("P");
+	for (var j = 0; j < text2.length; j++) {
+    text2[j].style.color = "white";
+    text2[j].style.fontFamily = "times new roman";
+  }
+	
+
+	var text3 = document.getElementsByTagName("h2");
+	for (var k = 0; k < text3.length; k++) {
+    text3[k].style.color = "white";
+    text3[k].style.fontFamily = "times new roman";
+  }
+
+  	var text4 = document.getElementsByTagName("h3");
+	for (var l = 0; l < text4.length; l++) {
+    text4[l].style.color = "white";
+    text4[l].style.fontFamily = "times new roman";
+  }
+
+    var myTitle= document.querySelector(".title");
+    myTitle.style.borderColor = "white";
+
+    var myNav= document.querySelector(".navigation");
+    myNav.style.borderColor = "white";
+
+	var poster1 = document.querySelector("#bayer1");
+	console.log(poster1.src);
+	poster1.style.borderColor = "white";
+
+	var poster2 = document.querySelector("#bayer2");
+	poster2.style.borderColor = "white";
+
+	var poster3 = document.querySelector("#bayer3");
+	poster3.style.borderColor = "white";
+
+	var book1 = document.querySelector("#book1");
+	book1.style.borderColor = "white";
+
+	var book2 = document.querySelector("#book2");
+	book2.style.borderColor = "white";
+
+	var book3 = document.querySelector("#book3");
+	book3.style.borderColor = "white";
+
+	var brand = document.querySelector("#brand");
+	brand.style.borderColor = "white";
+
+	var myBtn = document.querySelector(".myButton");
+    myBtn.style.display = "none";
+
+  	var myBtn2 = document.querySelector(".myButton2");
+    myBtn2.style.display = "block";
+}
+
+
+function refreshPage(){
+    window.location.reload();
+   }
