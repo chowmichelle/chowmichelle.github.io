@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+:root {
+  --title-color: #495867;
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+
+.myButton2{
+	display:none;
+}
+
+.title{
+	font-family:'Righteous',helvetica;
+	font-size: 1.5em;
+	color: var(--title-color);
+	text-align:center;
+	padding-bottom:0;
+	border-bottom: 15px solid #9CAFB7;
+}
+
+.title > a{
+		color: var(--title-color);
+		text-decoration: none;
+}
+
+h1{
+	padding-top:3%;
+	padding-bottom:0;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
+nav > a {
+	font-family: 'helvetica';
+	color:#CE796B;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1em;
+	display: block;
+}
+nav{
+	border-top: 5px solid #C18C5D;
+	line-height: 1.5;
+	padding-top:1em;
+	padding-bottom:0.25em;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+
+.song{
+	color: #C18C5D;
+	}
+
+.profile{
+	border: 5px solid #C18C5D;
+	padding: 1em;
+	display:block;
+	margin-top:0;
+	margin-left:auto;
+	margin-right: :auto;
+	margin-bottom:auto;
+	grid-area: profile;
+}
+
+.profile > img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:auto;
+}
+.section{
+	font-family: 'Righteous', helvetica;
+	font-size:2em;
+}
+
+.heading{
+	font-family: helvetica;
+	font-size:1.5em;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+p, ul, h2, h3{
+	font-family: helvetica;
+}
+
+.sub-heading,.date{
+	margin-top:0.25em;
+	margin-bottom:0.25em;
+}
+
+
+.skillsList{
+	margin:0.5em;
+	padding-left:0;
+	line-height: 1.5;
+	list-style: none;
+}
+
+.job-description{
+	list-style: circle;
+}
+
+.about-grid{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+}
+
+.education, .activities{
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5%;
+	border: 5px solid #CE796B;
+	margin-top:2em;
+	color: #CE796B;
+}
+
+.education{
+	grid-area: education;
+}
+
+.education2{
+	padding-bottom: 2em;
+}
+
+.experience{
+	grid-area: experience;
+}
+
+.experience1, .experience2, .experience3, .experience4{
+	display:flex;
+	flex-direction: column;
+}
+
+.experience, .awards{
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5%;
+	border: 5px solid #495867;
+	margin-top:2em;
+	color: #495867;
+}
+
+.skills{
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5%;
+	border: 5px solid #C18C5D;
+	margin-top:2em;
+	color: #C18C5D;
+}
+
+.skills1{
+	grid-area: skills-one;
+}
+.skills2{
+	grid-area: skills-two;
+}
+.skills3{
+	grid-area: skills-three;	
+}
+.skills4{
+	grid-area: skills-four;	
+}
+
+.awards{
+	grid-area: awards;
+}
+
+.activities{
+	grid-area: activities;
+}
+
+.skills{
+	grid-area:skills;
+}
+
+footer{
+	font-family: helvetica;
+	font-size:1.5em;
+	color: var(--title-color);
+	text-align: center;
+	margin-top:5%;
+	margin-bottom:0;
+}
+
+.responsive > img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:auto;
+}
+
+
+.book-container > img{
+	width:30%;
+	height:auto;
+}
+
+.bauhaus-container > img{
+	width:30%;
+	height:auto;
+}
+.postcard-container > img{
+	width:30%;
+	height:auto;
+}
+.branding-container > img{
+	width:30%;
+	height:auto;
+}
+.branding-container, .book-container,.bauhaus-container,.postcard-container{
+	margin-top: 1em;
+	margin-bottom:4em;
+	border: 5px solid #495867;
+	padding: 1em;
+	font-size: 1em;
+	color: #495867;
+}
+
+
+.work{
+position: relative;
+  text-align: center;
+  color: black;
+  margin-bottom: 2em;
+}
+
+
+/* yellow border */
+#illustration{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	color: #C18C5D;
+	text-align: center;
+	margin-top: 4em;
+}
+
+.illustration-container{
+	border: 5px solid #C18C5D;
+	padding: 1em;
+	font-size: 1em;
+	color: #C18C5D;
+}
+
+/* blue border */
+
+
+#design{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	color: #495867;
+	text-align: center;
+}
+
+#web-dev{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	color: #CE796B;
+	text-align: center;
+}
+.site-link{
+	color:#CE796B;
+}
+
+.music-site,.ghibli-site
+{
+	border: 5px solid #CE796B;
+	padding: 1em;
+	font-size: 1em;
+	color: #CE796B;
+}
+
+.music-site{
+	margin-bottom:2.5em;
+}
+
+
+.portfolio-section > h2{
+	font-size: 2em;
+}
+
+.firstName, .lastName, .email,{
+	font-size: 1.5em;
+	color: var(--title-color);
+}
+.envelope > img{
+	display:block;
+	width:50%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.message{
+	margin-top:0;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+	color: var(--title-color);
+	font-size: 1em;
+}
+
+.form-container{
+	margin: 5%;
+}
+
+.description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  
+}
+
+.description{
+	z-index: -1;
+}
+
+button{
+	position: fixed;
+	right:0;
+	top:0;
+}
+
+a.classic:link, a.classic:visited, h1.classic, h2.classic, p.classic{
+  color: white;
+  font-family: 'times new roman';
+}
+
+a.classic:hover{
+	color: black;
+	background-color: white;
+}
+
+a:hover{
+	color: var(--title-color);
+	background-color: #CE796B;
+}
+.classic-nav{
+	border-top: 5px solid;
+}
+
+
+.classic-title{
+	border-color: solid white;
+}
+
+iframe{
+	height:20em;
+	width:100%;
+	border:none;
+}
+
+.branding-container{grid-area:brand;}
+.book-container{grid-area:book;}
+.bauhaus-container{grid-area:bauhaus;}
+.postcard-container{grid-area:postcard;}
+.music-site{grid-area:music;}
+.ghibli-site{grid-area:ghibli;}
+/*--------------------Breakpoint 1-------------*/
+@media(min-width: 414px){
+	.title{
+		font-size: 3em;
+	}
+	nav > a {
+	font-size: 2em;
+	}
+}
+
+
+/*--------------------Breakpoint 2-------------*/
+
+@media (min-width: 50em) {
+
+.title{
+	text-align: left;
+	padding-left:0.5em;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+nav > a{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+
+
+.about-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    'profile experience experience'
+    'education experience experience'
+    'skills skills skills'
+    'awards awards activities'
+    ;
+   column-gap: 2em;
+}
+
+.skills-container{
+	margin:0;
+	padding:0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.experience{
+	margin-top: 0;
+}
+
+.work{
+	margin-bottom: 0;
+}
+
+.design-container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    'book bauhaus'
+    'postcard brand'
+    'postcard brand'
+    ;
+   column-gap: 2em;
+}
+
+#web-dev{
+	width:75%;
+}
+
+/*.web-container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    'music music music .'
+    '.ghibli ghibli ghibli'
+    ;
+   column-gap: 2em;
+}*/
+
+
+iframe{
+	height:30em;
+}
+
+img{
+	margin:0.5em;
+}
+.form-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+
+}

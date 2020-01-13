@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">	
+</head>
+<body>
+	<button onclick="classic()" class="myButton">Classic Mode</button>
+	<button type="submit" class="myButton2" onclick="refreshPage()">Fun Mode</button>
+	<header class = "title">
+		<a href = "index.html"><h1>Michelle Chow</h1></a>
+	</header>
+
+	<nav class = "navigation">
+		<a href = "index.html" class = "selected">Resume</a>
+		<a href = "portfolio.html" class = "selected">Portfolio</a>
+		<a href = "contact.html" class = "selected">Contact</a>
+	</nav>
+
+	<main class="portfolio-container">
+		<section class="portfolio-section" id="design">
+			<h2>DESIGN</h2>
+			<div class = "design-container">
+				<div class="book-container">
+						<img src="images/book1.png" width = "336" height = "500" alt = "Book cover" class="responsive">
+						<img src="images/book2.png" width = "336" height = "500" alt = "Book cover" class="responsive">
+						<img src="images/book3.png" width = "336" height = "500" alt = "Book cover" class="responsive">
+					<h3 class="work-title">"everything is ok." Book Cover Mockups (2019)</h3>
+				</div>
+				<div class="bauhaus-container">
+						<img src="images/bayer1.png" width = "330" height = "500" alt = "Exhibition poster" class="responsive">
+						<img src="images/bayer2.png" width = "330" height = "500" alt = "Exhibition poster" class="responsive">
+						<img src="images/bayer3.png" width = "330" height = "500" alt = "Exhibition poster" class="responsive">
+					<h3 class="work-title">Herbert Bayer Exhibition Poster Mockups (2019)</h3>
+				</div>
+				<div class="postcard-container">
+						<img src="images/postcard1.jpg" width = "432" height = "300" alt = "Exhibition postcard" class="responsive">
+						<img src="images/postcard2.jpg" width = "300" height = "300" alt = "Exhibition postcard" class="responsive">
+						<img src="images/postcard3.jpg" width = "300" height = "300" alt = "Exhibition postcard" class="responsive">
+						<img src="images/postcard4.jpg" width = "224" height = "300" alt = "Exhibition postcard" class="responsive">
+						<img src="images/postcard5.jpg" width = "300" height = "300" alt = "Exhibition postcard" class="responsive">
+						<img src="images/postcard6.jpg" width = "224" height = "300" alt = "Exhibition postcard" class="responsive">
+					<h3 class="work-title">Digital Postcards for "4 Elements" Exhibition at Van Der Plas Gallery (2019)</h3>
+				</div>
+				<div class="branding-container">
+						<img src="images/mopPoster.jpg" width = "323" height = "500" alt = "Mother of Pearl Jewelry Show Poster" class="responsive brand1">
+						<img src="images/mopBookCover1.jpg" width = "333" height = "500" alt = "Mother of Pearl Winter Catalogue 2020" class="responsive brand2">
+						<img src="images/mopBookCover2.jpg" width = "333" height = "500" alt = "Mother of Pearl Winter Catalogue 2020" class="responsive brand3">
+						<!--<img src="images/brandLogo3.png" width = "100" height = "500" alt = "Mother of Pearl Winter Catalogue 2020" class="responsive brand4">-->
+						<img src="images/brandLogo1.png" width = "300" height = "300" alt = "Mother of Pearl Winter Catalogue 2020" class="responsive brand5">
+						<img src="images/brandLogo4.png" width = "420" height = "500" alt = "Mother of Pearl Winter Catalogue 2020" class="responsive brand6">
+						<img src="images/brandLogo5.png" width = "410" height = "500" alt = "Mother of Pearl Winter Catalogue 2020" class="responsive brand7">
+				<h3 class="work-title">"Mother of Pearl" Branding Mockup (2019)</h3>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio-section" id="web-dev">
+			<h2>WEB DEVELOPMENT</h2>
+			<div class = "web-container">
+				<div class="music-site">
+					<iframe src="music/index.html"></iframe>
+					<h3 class="work-title">Monthly Playlist Site</h3>
+					<p><a href="music/index.html" class="site-link" id="music-link">click for full site</a></p>
+				</div>
+				<div class="ghibli-site">
+					<iframe src="ghibli/index.html"></iframe>
+					<h3 class="work-title">Studio Ghibli Mockup Website</h3>
+					<p><a href="ghibli/index.html" class="site-link" id="ghibli-link">click for full site</a></p>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio-section" id="illustration">
+			<h2>ILLUSTRATION</h2>
+			<div class="illustration-container">
+				<h3 class="work-title">coming soon ...</h3>
+
+			</div>
+		</section>
+<!--
+
+		<div id = "brand" class = "work">
+			<img src="images/brand.png" srcset="images/brand-2x.png 2x" width = "1114" height = "641" alt = "brand design mockups">
+			<p>Mother of Pearl Branding (2019)</p>
+		</div>
+-->
+	</main>
+
+
+	<footer>
+		<p>2019 - Michelle Chow</p>
+	</footer>
+
+	<script type="text/JavaScript" src ="js/portfolio.js"></script>
+
+</body>
+</html>
