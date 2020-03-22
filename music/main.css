@@ -10,7 +10,7 @@ body{
 	margin:0;
 	height: auto;
 	background-repeat: no-repeat;
-  	background-image: linear-gradient(#f2df80, #f2df80, #ff946e, #0080c4, #de8e04); /* Standard syntax (must be last) */
+  	background-image: linear-gradient(#f2df80, #f2df80, #ff946e, #0080c4, #de8e04, #6bb0a9, #000000); /* Standard syntax (must be last) */
   	width: 100%;
 }
 
@@ -100,7 +100,7 @@ h2{
   margin-right: 0;
 }*/
 
-#september2019, #october2019, #november2019, #december2019{
+#september2019, #october2019, #november2019, #december2019,#january2020,#february2020{
 	width: 90%; /* percent of parent element */
 	margin-left: auto;
 	margin-right:auto;
@@ -177,12 +177,20 @@ ol{
 
 #december-links{grid-area: decLinks;}
 
+#january-top{grid-area:janTop;}
 
-#september-top,#october-top, #november-top, #december-top{
+#january-links{grid-area: janLinks;}
+
+#february-top{grid-area:febTop;}
+
+#february-links{grid-area: febLinks;}
+
+
+#september-top,#october-top, #november-top, #december-top,#january-top,#february-top{
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
-#september-links,#october-links,#november-links,#december-links{
+#september-links,#october-links,#november-links,#december-links,#january-links,#february-links{
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
@@ -255,11 +263,29 @@ ol{
 	'decLinks .';
 	}
 
-	#september-top,#october-top, #november-top, #december-top{
+	#january2020{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows:minmax(100px, auto);
+	grid-template-areas:
+	'. janTop'
+	'janLinks .';
+	}
+
+	#february2020{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows:minmax(100px, auto);
+	grid-template-areas:
+	'. febTop'
+	'febLinks .';
+	}
+
+	#september-top,#october-top, #november-top, #december-top, #january-top, #february-top{
 	margin-top: 3vw;
 	margin-bottom: 3vw;
 	}
-	#september-links,#october-links,#november-links,#december-links{
+	#september-links,#october-links,#november-links,#december-links,#january-links,#february-links{
 	margin-top: 3vw;
 	margin-bottom: 3vw;
 }
@@ -300,5 +326,23 @@ ol{
 	grid-template-areas:
 	'. decTop .'
 	'decLinks . .';
+	}
+
+		#january2020{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	'. janTop .'
+	'. . janLinks';
+	}
+
+		#february2020{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+	grid-template-areas:
+	'. febTop .'
+	'febLinks . .';
 	}
 }
